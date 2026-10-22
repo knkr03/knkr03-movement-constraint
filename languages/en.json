@@ -1,0 +1,66 @@
+{
+  "MOVELIMIT": {
+    "Move": "Move",
+    "UndoTooltip": "Undo last move ({count} available). Shift+click: back to start of turn",
+    "RedoTooltip": "Redo move ({count} available)",
+    "SelectToken": "Select a token",
+    "SelectTokenToUndo": "Select a token to undo its move.",
+    "SelectTokenToRedo": "Select a token to redo its move.",
+    "NotInCombat": "{name} is not in combat.",
+    "NothingToUndo": "{name}: no move to undo.",
+    "NothingToRedo": "{name}: no move to redo.",
+    "RedoFailed": "Could not redo the move. See the console for details.",
+    "ExtraGranted": "{name}: extra movement allotment #{n} granted.",
+    "Settings": {
+      "gmBypass": {
+        "name": "GM Bypasses Limit",
+        "hint": "If enabled, drags by a GM are never constrained."
+      },
+      "outOfCombat": {
+        "name": "Outside Combat",
+        "hint": "How tokens that are not in combat are limited.",
+        "full": "Full speed per drag",
+        "none": "No limit"
+      },
+      "offTurn": {
+        "name": "Combatants Off Their Turn",
+        "hint": "How combatants are limited when it is not their turn.",
+        "turn": "Track movement like on their turn",
+        "full": "Full speed per drag",
+        "none": "No limit"
+      },
+      "allowExtraMovement": {
+        "name": "Allow Extra Movement",
+        "hint": "When a token's movement is used up, the next drag starts a new full allotment (Dash, Action Surge, and similar). While any movement remains, drags are limited to exactly that remainder."
+      },
+      "maxExtraAllotments": {
+        "name": "Max Extra Allotments per Turn",
+        "hint": "0 = unlimited. Set to 1 to allow a single Dash per turn."
+      },
+      "exhaustedThreshold": {
+        "name": "Used-Up Threshold",
+        "hint": "Remaining movement at or below this many scene units counts as used up."
+      },
+      "measureFallback": {
+        "name": "Measure Zero-Cost Waypoints",
+        "hint": "If Foundry records a movement step with cost 0, measure its distance instead."
+      },
+      "notify": {
+        "name": "Announce Extra Movement",
+        "hint": "Show a notification when an extra movement allotment is granted."
+      },
+      "shiftBypass": {
+        "name": "Shift Releases the Constraint",
+        "hint": "Hold Shift while dragging a token to move it without the movement limit. The release lasts until the token is placed, even if Shift is let go before the drop."
+      },
+      "showUndoButtons": {
+        "name": "Show Undo/Redo Move Buttons",
+        "hint": "Show the move undo/redo buttons at the bottom of the Combat Tracker."
+      },
+      "debug": {
+        "name": "Debug Logging",
+        "hint": "Log movement budgets and undo steps to the browser console."
+      }
+    }
+  }
+}

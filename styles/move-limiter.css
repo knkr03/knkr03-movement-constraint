@@ -1,0 +1,19 @@
+.move-limiter-bar {
+  display: flex;
+  gap: 8px;
+  padding: 4px 8px;
+}
+
+.move-limiter-bar button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.move-limiter-bar button[disabled] {
+  opacity: 0.4;
+  cursor: default;
+}
